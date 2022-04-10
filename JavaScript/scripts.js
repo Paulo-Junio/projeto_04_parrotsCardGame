@@ -9,7 +9,6 @@ function quantidadeCartas () {
         if (numeroDeCartas>=4 && numeroDeCartas<=14 && divisao===0) {
             contador ++
     } else {numeroDeCartas= Number(prompt("Por favor, insira um número entre 4 e 14"));}     
-    console.log(divisao);
    }
    sotearCartas(numeroDeCartas)
 }
@@ -29,18 +28,9 @@ function sotearCartas(numeroDeCartas) {
                 <img src="${cartas[i]}">
                 </div>
             </div>`
-            console.log(elemento)
+           
         }
     }
 }
-
-function comparador() { 
-	return Math.random() - 0.5; 
-}
-
-function compararCartas(elemento) {
-    const cartaClicada = elemento.querySelector(".face.verso").classList.remove("verso");
-    console.log(cartaClicada)
-
-}
 quantidadeCartas()
+
