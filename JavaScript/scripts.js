@@ -85,7 +85,9 @@ function compararCarta() {
         console.log(cartaUm)
         console.log(cartaDois)
     }
-
+    if (parFormado===repeticao) {
+        finalizarJogo()
+    }
 }
 
 function desvirarCarta() {
@@ -95,7 +97,10 @@ function desvirarCarta() {
         elementoDois.querySelector(".face.virada").classList.remove("virada");  
 }
 
+function finalizarJogo() {
+    alert(`Você ganhou em ${jogadas} jogadas!`)
 
+}
 
 quantidadeCartas()
 
