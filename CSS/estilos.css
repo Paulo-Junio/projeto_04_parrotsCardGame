@@ -60,6 +60,7 @@ body {
 .verso {
     transform: rotateY(180deg);
 }
+
 .conteiner {
     display: flex;
     flex-direction: column;
