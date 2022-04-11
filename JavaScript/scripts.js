@@ -39,7 +39,7 @@ function sotearCartas(numeroDeCartas) {
             <img src="images/front.png" >
             </div>
             <div class="face verso">
-            <img src="${cartasBaralho[i]}">
+            <img src="./${cartasBaralho[i]}">
             </div>
         </div>`
         
