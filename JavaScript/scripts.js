@@ -25,7 +25,7 @@ function quantidadeCartas () {
 
 function sotearCartas(numeroDeCartas) {
     repeticao = (numeroDeCartas/2)
-    const cartas=["images/bobrossparrot.gif","images/explodyparrot.gif","images/fiestaparrot.gif","images/metalparrot.gif","images/revertitparrot.gif","images/tripletsparrot.gif","images/unicornparrot.gif"];
+    const cartas=["Images/bobrossparrot.gif","Images/explodyparrot.gif","Images/fiestaparrot.gif","Images/metalparrot.gif","Images/revertitparrot.gif","Images/tripletsparrot.gif","Images/unicornparrot.gif"];
     let cartasBaralho =[];
     for (let i = 0; i<2; i++){
         for (let i = 0; i<repeticao; i++)
