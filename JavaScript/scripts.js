@@ -36,7 +36,7 @@ function sotearCartas(numeroDeCartas) {
         let elemento= document.querySelector(".card-box");
         elemento.innerHTML += `<div class="card" onclick="escolherCarta(this)" >
             <div class="face frente">
-            <img src="images/front.png" >
+            <img src="./images/front.png" >
             </div>
             <div class="face verso">
             <img src="./${cartasBaralho[i]}">
