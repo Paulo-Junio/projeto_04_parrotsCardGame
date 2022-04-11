@@ -71,7 +71,7 @@ body {
 .escondido {
     display: none;
 }
-@media (max-width: 335px) {
+@media (max-width: 767px) {
 
     .titulo {
         font-size: 36px;
